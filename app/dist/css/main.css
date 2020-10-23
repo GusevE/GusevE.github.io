@@ -1,14 +1,14 @@
 @font-face {
   font-family: "Brutal Type";
-  src: url("/fonts/Brutal/bold/BrutalBold.ttf"); }
+  src: url("../fonts/Brutal/bold/BrutalBold.ttf"); }
 
 @font-face {
   font-family: "Brutal regular";
-  src: url("/fonts/Brutal/regular/BrutalRegular.ttf"); }
+  src: url("..fonts/Brutal/regular/BrutalRegular.ttf"); }
 
 @font-face {
   font-family: "Brutal medium";
-  src: url("/fonts/Brutal/medium/BrutalMedium.ttf"); }
+  src: url("../fonts/Brutal/medium/BrutalMedium.ttf"); }
 
 @font-face {
   font-family: "PT Sans";
