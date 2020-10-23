@@ -143,7 +143,7 @@ h1 {
   height: 492px;
   margin-top: 22px;
   margin-left: 8px;
-  background-image: url(/Users/zoopi/Desktop/S&P/app/pictures/3.svg);
+  background-image: url(../pictures/3.svg);
   position: relative; }
   .box__button {
     width: 118px;
