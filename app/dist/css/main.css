@@ -143,7 +143,7 @@ h1 {
   height: 492px;
   margin-top: 22px;
   margin-left: 8px;
-  background-image: url(/../pictures/3.svg);
+  background-image: url(/Users/zoopi/Desktop/S&P/app/pictures/3.svg);
   position: relative; }
   .box__button {
     width: 118px;
@@ -242,7 +242,7 @@ span {
 
 .box2 {
   margin-top: 25px;
-  background-image: url(/../pictures/8.svg);
+  background-image: url(/Users/zoopi/Desktop/S&P/app/pictures/8.svg);
   width: 517px;
   height: 492px; }
   .box2__button {
@@ -319,7 +319,7 @@ span {
   margin-left: 25px;
   width: 247px;
   height: 492px;
-  background-image: url(/../pictures/11.svg); }
+  background-image: url(/Users/zoopi/Desktop/S&P/app/pictures/11.svg); }
   .box3__button {
     margin-top: 85px; }
   .box3__text {
@@ -399,19 +399,19 @@ span {
   margin-left: -2px;
   width: 250px;
   height: 177px;
-  background-image: url(/../pictures/12.svg); }
+  background-image: url(/Users/zoopi/Desktop/S&P/app/pictures/12.svg); }
 
 .news-time__two {
   margin-left: 20px;
   width: 250px;
   height: 177px;
-  background-image: url(/../pictures/13.svg); }
+  background-image: url(/Users/zoopi/Desktop/S&P/app/pictures/13.svg); }
 
 .news-time__three {
   margin-left: 20px;
   width: 250px;
   height: 177px;
-  background-image: url(/../pictures/14.svg); }
+  background-image: url(/Users/zoopi/Desktop/S&P/app/pictures/14.svg); }
 
 .news-time__text {
   font-family: "Brutal Type";
