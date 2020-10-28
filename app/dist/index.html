@@ -4,8 +4,8 @@
     <title>Задание 3</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
-    <link href="css/main.css" rel="stylesheet" />
-     <link rel="shortcut icon" href="pictures/Favicon.png" type="image/png" />
+    <link href="dist/css/main.css" rel="stylesheet" />
+    <link rel="shortcut icon" href="pictures/Favicon.png" type="image/png" />
     <link
       href="https://fonts.googleapis.com/css2?family=Lato&display=swap"
       rel="stylesheet"
@@ -33,125 +33,203 @@
     />
     <link
       rel="stylesheet"
-      href="css/1024.css"
+      href="dist/css/1024.css"
       media="only screen and (max-width:1024px)"
     />
     <link
       rel="stylesheet"
-      href="css/768.css"
+      href="dist/css/768.css"
       media="only screen and (max-width:768px)"
     />
     <link
       rel="stylesheet"
-      href="css/320.css"
+      href="dist/css/320.css"
       media="only screen and (max-width:320px)"
     />
   </head>
-  <body>
-    <header class="header">
-      <div class="header__logo">
-        <img src="pictures/1.svg" alt="no pictures" />
-      </div>
-      <div class="header__logo__320">
-        <img src="pictures/25.svg" alt="no pictures" />
-        <img class="pixel" src="pictures/26.svg" alt="no pictures" />
-      </div>
+  <div class="wrapper">
+    <body>
+      <header class="header">
+        <div class="header__logo">
+          <img src="pictures/1.svg" alt="no pictures" />
+        </div>
+        <div class="header__logo__320">
+          <img src="pictures/25.svg" alt="no pictures" />
+          <img class="pixel" src="pictures/26.svg" alt="no pictures" />
+        </div>
 
-      <div class="header__text">
-        Здесь думающие ​люди ​делятся ​уникальным ​​опытом. ​​Здесь будет
-        ​​одинаково ​интересно ​программистам ​и журналистам, ​​админам ​и
-        рекламщикам, ​аналитикам ​и дизайнерам, ​менеджерам ​высшего ​и среднего
-        ​звена, ​владельцам ​крупных ​компаний ​и небольших ​фирм, ​а также
-        ​всем ​тем, ​для кого ​ IT — это не просто ​две буквы ​алфавита.
-      </div>
-      <div class="header__button">
-        <button class="button" type="button">Вход</button>
-      </div>
-    </header>
-    <nav class="nav">
-      <div class="nav__icon">&#9776;</div>
-      <div class="container1">
-        <div class="nav__bar">
-          <div class="nav__item nav__item_one">Новости</div>
-          <div class="nav__item nav__item_two">Видео</div>
-          <div class="nav__item nav__item_three">Тесты</div>
-          <div class="nav__item nav__item_four">Серии</div>
-          <div class="nav__item nav__item_five">Рубрики</div>
-          <div class="nav__item search">Поиск</div>
+        <div class="header__text">
+          Здесь думающие ​люди ​делятся ​уникальным ​​опытом. ​​Здесь будет
+          ​​одинаково ​интересно ​программистам ​и журналистам, ​​админам ​и
+          рекламщикам, ​аналитикам ​и дизайнерам, ​менеджерам ​высшего ​и
+          среднего ​звена, ​владельцам ​крупных ​компаний ​и небольших ​фирм, ​а
+          также ​всем ​тем, ​для кого ​ IT — это не просто ​две буквы ​алфавита.
         </div>
-        <div class="lupa">
-          <img src="pictures/2.svg" alt="no pictures" />
+        <div class="header__button">
+          <button class="button" type="button">Вход</button>
         </div>
-        <div class="lupa2">
-          <img src="pictures/27.svg" alt="no pictures" />
+      </header>
+      <nav class="nav">
+        <div class="nav__icon">&#9776;</div>
+        <div class="container1">
+          <div class="nav__bar">
+            <div class="nav__item nav__item_one">Новости</div>
+            <div class="nav__item nav__item_two">Видео</div>
+            <div class="nav__item nav__item_three">Тесты</div>
+            <div class="nav__item nav__item_four">Серии</div>
+            <div class="nav__item nav__item_five">Рубрики</div>
+            <div class="nav__item search">Поиск</div>
+          </div>
+          <div class="lupa">
+            <img src="pictures/2.svg" alt="no pictures" />
+          </div>
+          <div class="lupa2">
+            <img src="pictures/27.svg" alt="no pictures" />
+          </div>
         </div>
-      </div>
-    </nav>
-    <h1>Сегодня в выпуске</h1>
-    <div class="containet-m">
-      <div class="container">
-        <div class="menu">
-          <article class="box">
-            <button class="box__button click">Сделай сам</button>
-            <div class="box__text">
-              Блокнот с осциллографом и генератором частот (звуковой картой)
-            </div>
-            <div class="box__description">
-              Решил немного написать про свою поделку. Несколько раз попадались
-              разнообразные diy линейки. Захотелось сделать себе что-то
-              подобное, многофункциональное. <br />
-              Форм-фактор линейки мне не очень подходил, решил сделать в виде
-              блокнота.
-            </div>
-            <div class="about about_box">
-              <div class="about__signature">
-                GMaksim2008 / <span> 22 марта, 12:15 </span>
+      </nav>
+      <h1>Сегодня в выпуске</h1>
+      <div class="containet-m">
+        <div class="container">
+          <div class="menu">
+            <article class="box">
+              <button class="box__button click">Сделай сам</button>
+              <div class="box__text">
+                Блокнот с осциллографом и генератором частот (звуковой картой)
               </div>
-              <div class="about__like">
-                <div class="about__item">
-                  <img src="pictures/4.svg" alt="" />
-                  <span class="text">4567</span>
+              <div class="box__description">
+                Решил немного написать про свою поделку. Несколько раз
+                попадались разнообразные diy линейки. Захотелось сделать себе
+                что-то подобное, многофункциональное. <br />
+                Форм-фактор линейки мне не очень подходил, решил сделать в виде
+                блокнота.
+              </div>
+              <div class="about about_box">
+                <div class="about__signature">
+                  GMaksim2008 / <span> 22 марта, 12:15 </span>
                 </div>
-                <div class="about__item">
-                  <img src="pictures/5.svg" alt="" />
-                  <span class="text">12</span>
+                <div class="about__like">
+                  <div class="about__item">
+                    <img src="pictures/4.svg" alt="" />
+                    <span class="text">4567</span>
+                  </div>
+                  <div class="about__item">
+                    <img src="pictures/5.svg" alt="" />
+                    <span class="text">12</span>
+                  </div>
+                  <div class="about__item">
+                    <img src="pictures/6.svg" alt="" />
+                    <span class="text"> 45</span>
+                  </div>
+                  <div class="about__item">
+                    <img src="pictures/7.svg" alt="" /><span class="text"
+                      >678</span
+                    >
+                  </div>
                 </div>
-                <div class="about__item">
-                  <img src="pictures/6.svg" alt="" />
-                  <span class="text"> 45</span>
+              </div>
+              <div class="box_layer">
+                <img src="pictures/UL1.svg" alt="" />
+                <img src="pictures/UL2.svg" alt="" />
+                <img src="pictures/UL3.svg" alt="" />
+                <img src="pictures/UL4.svg" alt="" />
+              </div>
+            </article>
+          </div>
+
+          <div class="twoslider">
+            <article class="box2">
+              <button class="box__button box2__button click">Железо</button>
+              <div class="box__text box__text_2">
+                Древности: удаленная работа на устройствах 1998 года
+              </div>
+              <div class="box2__description">
+                Поговорим о старых железках. В 2020 году у нас есть множество
+                инструментов удаленной работы — от традиционной электронной
+                почты, до весьма совершенных мессенджеров, веб-конференций с...
+              </div>
+              <div class="about about__box2">
+                <div class="about__signature about__signature_box2">
+                  f15 / <span> 22 марта, 12:15 </span>
                 </div>
-                <div class="about__item">
-                  <img src="pictures/7.svg" alt="" /><span class="text"
-                    >678</span
-                  >
+                <div class="about__like about__like_box2">
+                  <div class="about__item">
+                    <img src="pictures/4.svg" alt="" />
+                    <span class="text">4567</span>
+                  </div>
+                  <div class="about__item">
+                    <img src="pictures/5.svg" alt="" />
+                    <span class="text">12</span>
+                  </div>
+                  <div class="about__item">
+                    <img src="pictures/6.svg" alt="" />
+                    <span class="text"> 45</span>
+                  </div>
+                  <div class="about__item">
+                    <img src="pictures/7.svg" alt="" /><span class="text"
+                      >678</span
+                    >
+                  </div>
+                </div>
+              </div>
+            </article>
+            <div class="box3">
+              <button class="box__button box3__button click">Железо</button>
+              <div class="box__text box__text_3">
+                Кластер Elasticsearch на 200 ТБ+
+              </div>
+              <div class="about about__like_box3">
+                <div class="about__signature">
+                  entropicus / <span> 22 марта, 12:15 </span>
+                </div>
+                <div class="about__like about__like_box4">
+                  <div class="about__item">
+                    <img src="pictures/4.svg" alt="" />
+                    <span class="text">4567</span>
+                  </div>
+                  <div class="about__item">
+                    <img src="pictures/5.svg" alt="" />
+                    <span class="text">12</span>
+                  </div>
+                  <div class="about__item">
+                    <img src="pictures/6.svg" alt="" />
+                    <span class="text"> 45</span>
+                  </div>
+                  <div class="about__item">
+                    <img src="pictures/7.svg" alt="" /><span class="text"
+                      >678</span
+                    >
+                  </div>
                 </div>
               </div>
             </div>
-            <div class="box_layer">
-              <img src="pictures/UL1.svg" alt="" />
-              <img src="pictures/UL2.svg" alt="" />
-              <img src="pictures/UL3.svg" alt="" />
-              <img src="pictures/UL4.svg" alt="" />
-            </div>
+          </div>
+          <article class="paragraf">
+            На сегодня это всё! Приходите завтра почитать
+            <b
+              >об эффективной работе из дома, о том как Crash Bandicoot
+              взламывал Playstation, о том с чего начиналось IT и об анатомии
+              таблиц LuaJIT и особенностях их использования.</b
+            >
           </article>
-        </div>
+          <nav class="news">
+            <nav class="news__item">Лучшее за месяц</nav>
+            <nav class="news__item news__item_1920">Лучшее за год</nav>
+            <nav class="news__item news__item_1920">Лучшее за все время</nav>
+            <nav class="news__item_320">Год</nav>
+            <nav class="news__item_320">Все время</nav>
 
-        <div class="twoslider">
-          <article class="box2">
-            <button class="box__button box2__button click">Железо</button>
-            <div class="box__text box__text_2">
-              Древности: удаленная работа на устройствах 1998 года
+            <div class="strelki">
+              <img src="pictures/9.svg" class="strelki__next" alt="" />
+              <img src="pictures/10.svg" alt="" />
             </div>
-            <div class="box2__description">
-              Поговорим о старых железках. В 2020 году у нас есть множество
-              инструментов удаленной работы — от традиционной электронной почты,
-              до весьма совершенных мессенджеров, веб-конференций с...
-            </div>
-            <div class="about about__box2">
-              <div class="about__signature about__signature_box2">
-                f15 / <span> 22 марта, 12:15 </span>
+          </nav>
+          <div class="news-time">
+            <div class="news-time__one newe__time">
+              <div class="news-time__text">
+                AI против COVID-19: опыт Хубэя и Флориды
               </div>
-              <div class="about__like about__like_box2">
+              <div class="about__like news_time_about news-time__about">
                 <div class="about__item">
                   <img src="pictures/4.svg" alt="" />
                   <span class="text">4567</span>
@@ -171,308 +249,245 @@
                 </div>
               </div>
             </div>
-          </article>
-          <div class="box3">
-            <button class="box__button box3__button click">Железо</button>
-            <div class="box__text box__text_3">
-              Кластер Elasticsearch на 200 ТБ+
-            </div>
-            <div class="about about__like_box3">
-              <div class="about__signature">
-                entropicus / <span> 22 марта, 12:15 </span>
-              </div>
-              <div class="about__like about__like_box4">
-                <div class="about__item">
-                  <img src="pictures/4.svg" alt="" />
-                  <span class="text">4567</span>
-                </div>
-                <div class="about__item">
-                  <img src="pictures/5.svg" alt="" />
-                  <span class="text">12</span>
-                </div>
-                <div class="about__item">
-                  <img src="pictures/6.svg" alt="" />
-                  <span class="text"> 45</span>
-                </div>
-                <div class="about__item">
-                  <img src="pictures/7.svg" alt="" /><span class="text"
-                    >678</span
-                  >
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <article class="paragraf">
-          На сегодня это всё! Приходите завтра почитать
-          <b
-            >об эффективной работе из дома, о том как Crash Bandicoot взламывал
-            Playstation, о том с чего начиналось IT и об анатомии таблиц LuaJIT
-            и особенностях их использования.</b
-          >
-        </article>
-        <nav class="news">
-          <nav class="news__item">Лучшее за месяц</nav>
-          <nav class="news__item news__item_1920">Лучшее за год</nav>
-          <nav class="news__item news__item_1920">Лучшее за все время</nav>
-          <nav class="news__item_320">Год</nav>
-          <nav class="news__item_320">Все время</nav>
-
-          <div class="strelki">
-            <img src="pictures/9.svg" class="strelki__next" alt="" />
-            <img src="pictures/10.svg" alt="" />
-          </div>
-        </nav>
-        <div class="news-time">
-          <div class="news-time__one newe__time">
-            <div class="news-time__text">
-              AI против COVID-19: опыт Хубэя и Флориды
-            </div>
-            <div class="about__like news_time_about news-time__about">
-              <div class="about__item">
-                <img src="pictures/4.svg" alt="" />
-                <span class="text">4567</span>
-              </div>
-              <div class="about__item">
-                <img src="pictures/5.svg" alt="" />
-                <span class="text">12</span>
-              </div>
-              <div class="about__item">
-                <img src="pictures/6.svg" alt="" />
-                <span class="text"> 45</span>
-              </div>
-              <div class="about__item">
-                <img src="pictures/7.svg" alt="" /><span class="text">678</span>
-              </div>
-            </div>
-          </div>
-          <div class="news-time__two newe__time">
-            <div class="news-time__text">Биологические проблемы багфикса</div>
-            <div
-              class="about__like about__like__box news-time__about news_time_about"
-            >
-              <div class="about__item">
-                <img src="pictures/4.svg" alt="" />
-                <span class="text">4567</span>
-              </div>
-              <div class="about__item">
-                <img src="pictures/5.svg" alt="" /> <span class="text">12</span>
-              </div>
-              <div class="about__item">
-                <img src="pictures/6.svg" alt="" />
-                <span class="text"> 45</span>
-              </div>
-              <div class="about__item">
-                <img src="pictures/7.svg" alt="" /><span class="text">678</span>
-              </div>
-            </div>
-          </div>
-          <div class="news-time__three newe__time">
-            <div class="news-time__text">
-              Цели дня как инструмент управления командой
-            </div>
-            <div
-              class="about__like about__like__box news-time__about news_time_about"
-            >
-              <div class="about__item">
-                <img src="pictures/4.svg" alt="" />
-                <span class="text">4567</span>
-              </div>
-              <div class="about__item">
-                <img src="pictures/5.svg" alt="" /> <span class="text">12</span>
-              </div>
-              <div class="about__item">
-                <img src="pictures/6.svg" alt="" />
-                <span class="text"> 45</span>
-              </div>
-              <div class="about__item">
-                <img src="pictures/7.svg" alt="" /><span class="text">678</span>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="serie serie_two">
-          <div class="serie__text">Серии</div>
-          <div class="strelki strelki_two">
-            <img src="pictures/9.svg" class="strelki__next" alt="" />
-            <img src="pictures/10.svg" alt="" />
-          </div>
-        </div>
-
-        <div class="hardware">
-          <div class="hardware__box">
-            <div class="hardware__text">HARDWARE против заблуждений</div>
-            <div class="hardware__spisok">
-              <ul>
-                <li>Мифы в IT-образовании</li>
-                <li>
-                  25 самых популярных мифов о программировании и программистах
-                </li>
-                <li>
-                  У iPhone нет шансов, а компьютеры не нужны. Топ-8 самых
-                  вопиющих <br />
-                  IT-заблуждений в истории
-                </li>
-                <li>
-                  У iPhone нет шансов, а компьютеры не нужны. Топ-8 самых
-                  вопиющих <br />
-                  IT-заблуждений в истории
-                </li>
-                <li>
-                  У iPhone нет шансов, а компьютеры не нужны. Топ-8 самых
-                  вопиющих <br />IT-заблуждений в истории
-                </li>
-              </ul>
-            </div>
-            <div class="hardware__button hardware__button_two">
-              <button type="button">Читать 27 статей</button>
-            </div>
-          </div>
-          <div class="hardware__box hardware__box_left">
-            <div class="hardware__text">HARDWARE против заблуждений</div>
-            <div class="hardware__spisok">
-              <ul>
-                <li>Мифы в IT-образовании</li>
-                <li>
-                  25 самых популярных мифов о программировании и программистах
-                </li>
-                <li>
-                  У iPhone нет шансов, а компьютеры не нужны. Топ-8 самых
-                  вопиющих IT- заблуждений в истории
-                </li>
-                <li>
-                  У iPhone нет шансов, а компьютеры не нужны. Топ-8 самых
-                  вопиющих IT-заблуждений в истории
-                </li>
-                <li>
-                  У iPhone нет шансов, а компьютеры не нужны. Топ-8 самых
-                  вопиющих IT-заблуждений в истории
-                </li>
-              </ul>
-            </div>
-            <div class="hardware__button hardware__button_two">
-              <button type="button">Читать 27 статей</button>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="container-r">
-        <div class="sidebar">
-          <div class="sidebar__menu">
-            <div class="button__seria">
-              <button type="button" class="button__seria_one button">
-                Серии
-              </button>
-            </div>
-            <div class="button__seria button__seria__one">
-              <button type="button" class="button__seria_two button">
-                Все серии
-              </button>
-            </div>
-          </div>
-          <div class="sidebar__text">HARDWARE против заблуждений</div>
-          <div class="hardware__spisok hardware__spisok_two">
-            <ul>
-              <li>Мифы в IT-образовании</li>
-              <li class="hide">
-                У iPhone нет шансов, а компьютеры не нужны. Топ-8 самых вопиющих
-                IT-заблуждений в истории
-              </li>
-              <li class="hide1920">
-                25 самых популярных мифов о программировании и программистах
-              </li>
-              <li class="hide_320">
-                У iPhone нет шансов, а компьютеры не нужны. Топ-8 самых вопиющих
-                IT-заблуждений в истории
-              </li>
-            </ul>
-          </div>
-          <div class="hardware__button hardware__button_one">
-            <button type="button">Читать 27 статей</button>
-          </div>
-        </div>
-        <div class="sidebar sidebar_one">
-          <div class="sidebar__menu">
-            <div class="button__seria">
-              <button type="button" class="button__seria_one button">
-                тесты
-              </button>
-            </div>
-            <div class="button__seria">
-              <button type="button" class="button__seria_two button">
-                Все тесты
-              </button>
-            </div>
-          </div>
-          <div class="sidebar__img">
-            <div class="sidebar__text_two">
-              Тест: Как хорошо вы знаете HTML и CSS?
-            </div>
-            <div
-              class="about__like about__like__box news-time__about sidebar_about"
-            >
-              <div class="about__item">
-                <img src="pictures/4.svg" alt="" />
-                <span class="text">4567</span>
-              </div>
-              <div class="about__item">
-                <img src="pictures/5.svg" alt="" /> <span class="text">12</span>
-              </div>
-              <div class="about__item">
-                <img src="pictures/6.svg" alt="" />
-                <span class="text"> 45</span>
-              </div>
-              <div class="about__item">
-                <img src="pictures/7.svg" alt="" /><span class="text">678</span>
-              </div>
-            </div>
-            <div class="hardware__button hardware__button_one sidebar__button">
-              <button type="button">Пройти тест</button>
-            </div>
-          </div>
-        </div>
-        <div class="sidebar sidebar__html">
-          <div class="sidebar__menu">
-            <div class="button__seria">
-              <button type="button" class="button__seria_one button">
-                Видео
-              </button>
-            </div>
-            <div class="button__seria">
-              <button type="button" class="button__seria_two button">
-                Все видео
-              </button>
-            </div>
-          </div>
-          <div class="sidebat__html">
-            <img src="pictures/17.svg" alt="" />
-          </div>
-          <div class="sidebar__html_text">Учим HTML за 1 Час!</div>
-        </div>
-        <div class="sidebar__last">
-          <div class="sidebar__menu sidebar__last_one">
-            <div class="button__seria">
-              <button type="button" class="button__seria_one button">
-                надысь
-              </button>
-            </div>
-            <div class="button__seria last__button">
-              <button
-                type="button"
-                class="button__seria_two button last__button_one"
+            <div class="news-time__two newe__time">
+              <div class="news-time__text">Биологические проблемы багфикса</div>
+              <div
+                class="about__like about__like__box news-time__about news_time_about"
               >
-                Все новоcти
-              </button>
+                <div class="about__item">
+                  <img src="pictures/4.svg" alt="" />
+                  <span class="text">4567</span>
+                </div>
+                <div class="about__item">
+                  <img src="pictures/5.svg" alt="" />
+                  <span class="text">12</span>
+                </div>
+                <div class="about__item">
+                  <img src="pictures/6.svg" alt="" />
+                  <span class="text"> 45</span>
+                </div>
+                <div class="about__item">
+                  <img src="pictures/7.svg" alt="" /><span class="text"
+                    >678</span
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="news-time__three newe__time">
+              <div class="news-time__text">
+                Цели дня как инструмент управления командой
+              </div>
+              <div
+                class="about__like about__like__box news-time__about news_time_about"
+              >
+                <div class="about__item">
+                  <img src="pictures/4.svg" alt="" />
+                  <span class="text">4567</span>
+                </div>
+                <div class="about__item">
+                  <img src="pictures/5.svg" alt="" />
+                  <span class="text">12</span>
+                </div>
+                <div class="about__item">
+                  <img src="pictures/6.svg" alt="" />
+                  <span class="text"> 45</span>
+                </div>
+                <div class="about__item">
+                  <img src="pictures/7.svg" alt="" /><span class="text"
+                    >678</span
+                  >
+                </div>
+              </div>
             </div>
           </div>
-          <div class="sidebar__last_time">24 апреля</div>
-          <div class="sidebar__last_time_one">15: 00</div>
-          <div class="sidebar__last_text">
-            NVIDIA расширяет бесплатный 90-дневный доступ к ПО для поддержки
-            удаленных работников
+          <div class="serie serie_two">
+            <div class="serie__text">Серии</div>
+            <div class="strelki strelki_two">
+              <img src="pictures/9.svg" class="strelki__next" alt="" />
+              <img src="pictures/10.svg" alt="" />
+            </div>
+          </div>
+
+          <div class="hardware">
+            <div class="hardware__box">
+              <div class="hardware__text">HARDWARE против заблуждений</div>
+              <div class="hardware__spisok">
+                <ul>
+                  <li>Мифы в IT-образовании</li>
+                  <li>
+                    25 самых популярных мифов о программировании и программистах
+                  </li>
+                  <li>
+                    У iPhone нет шансов, а компьютеры не нужны. Топ-8 самых
+                    вопиющих <br />
+                    IT-заблуждений в истории
+                  </li>
+                  <li>
+                    У iPhone нет шансов, а компьютеры не нужны. Топ-8 самых
+                    вопиющих <br />
+                    IT-заблуждений в истории
+                  </li>
+                  <li>
+                    У iPhone нет шансов, а компьютеры не нужны. Топ-8 самых
+                    вопиющих <br />IT-заблуждений в истории
+                  </li>
+                </ul>
+              </div>
+              <div class="hardware__button hardware__button_two">
+                <button type="button">Читать 27 статей</button>
+              </div>
+            </div>
+            <div class="hardware__box hardware__box_left">
+              <div class="hardware__text">HARDWARE против заблуждений</div>
+              <div class="hardware__spisok">
+                <ul>
+                  <li>Мифы в IT-образовании</li>
+                  <li>
+                    25 самых популярных мифов о программировании и программистах
+                  </li>
+                  <li>
+                    У iPhone нет шансов, а компьютеры не нужны. Топ-8 самых
+                    вопиющих IT- заблуждений в истории
+                  </li>
+                  <li>
+                    У iPhone нет шансов, а компьютеры не нужны. Топ-8 самых
+                    вопиющих IT-заблуждений в истории
+                  </li>
+                  <li>
+                    У iPhone нет шансов, а компьютеры не нужны. Топ-8 самых
+                    вопиющих IT-заблуждений в истории
+                  </li>
+                </ul>
+              </div>
+              <div class="hardware__button hardware__button_two">
+                <button type="button">Читать 27 статей</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container-r">
+          <div class="sidebar">
+            <div class="sidebar__menu">
+              <div class="button__seria">
+                <button type="button" class="button__seria_one button">
+                  Серии
+                </button>
+              </div>
+              <div class="button__seria button__seria__one">
+                <button type="button" class="button__seria_two button">
+                  Все серии
+                </button>
+              </div>
+            </div>
+            <div class="sidebar__text">HARDWARE против заблуждений</div>
+            <div class="hardware__spisok hardware__spisok_two">
+              <ul>
+                <li>Мифы в IT-образовании</li>
+                <li class="hide">
+                  У iPhone нет шансов, а компьютеры не нужны. Топ-8 самых
+                  вопиющих IT-заблуждений в истории
+                </li>
+                <li class="hide1920">
+                  25 самых популярных мифов о программировании и программистах
+                </li>
+                <li class="hide_320">
+                  У iPhone нет шансов, а компьютеры не нужны. Топ-8 самых
+                  вопиющих IT-заблуждений в истории
+                </li>
+              </ul>
+            </div>
+            <div class="hardware__button hardware__button_one">
+              <button type="button">Читать 27 статей</button>
+            </div>
+          </div>
+          <div class="sidebar sidebar_one">
+            <div class="sidebar__menu">
+              <div class="button__seria">
+                <button type="button" class="button__seria_one button">
+                  тесты
+                </button>
+              </div>
+              <div class="button__seria">
+                <button type="button" class="button__seria_two button">
+                  Все тесты
+                </button>
+              </div>
+            </div>
+            <div class="sidebar__img">
+              <div class="sidebar__text_two">
+                Тест: Как хорошо вы знаете HTML и CSS?
+              </div>
+              <div
+                class="about__like about__like__box news-time__about sidebar_about"
+              >
+                <div class="about__item">
+                  <img src="pictures/4.svg" alt="" />
+                  <span class="text">4567</span>
+                </div>
+                <div class="about__item">
+                  <img src="pictures/5.svg" alt="" />
+                  <span class="text">12</span>
+                </div>
+                <div class="about__item">
+                  <img src="pictures/6.svg" alt="" />
+                  <span class="text"> 45</span>
+                </div>
+                <div class="about__item">
+                  <img src="pictures/7.svg" alt="" /><span class="text"
+                    >678</span
+                  >
+                </div>
+              </div>
+              <div
+                class="hardware__button hardware__button_one sidebar__button"
+              >
+                <button type="button">Пройти тест</button>
+              </div>
+            </div>
+          </div>
+          <div class="sidebar sidebar__html">
+            <div class="sidebar__menu">
+              <div class="button__seria">
+                <button type="button" class="button__seria_one button">
+                  Видео
+                </button>
+              </div>
+              <div class="button__seria">
+                <button type="button" class="button__seria_two button">
+                  Все видео
+                </button>
+              </div>
+            </div>
+            <div class="sidebat__html">
+              <img src="pictures/17.svg" alt="" />
+            </div>
+            <div class="sidebar__html_text">Учим HTML за 1 Час!</div>
+          </div>
+          <div class="sidebar__last">
+            <div class="sidebar__menu sidebar__last_one">
+              <div class="button__seria">
+                <button type="button" class="button__seria_one button">
+                  надысь
+                </button>
+              </div>
+              <div class="button__seria last__button">
+                <button
+                  type="button"
+                  class="button__seria_two button last__button_one"
+                >
+                  Все новоcти
+                </button>
+              </div>
+            </div>
+            <div class="sidebar__last_time">24 апреля</div>
+            <div class="sidebar__last_time_one">15: 00</div>
+            <div class="sidebar__last_text">
+              NVIDIA расширяет бесплатный 90-дневный доступ к ПО для поддержки
+              удаленных работников
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  </body>
+    </body>
+  </div>
 </html>
