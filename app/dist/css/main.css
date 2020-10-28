@@ -151,6 +151,7 @@ h1 {
   margin-left: 8px;
   background-image: url(../pictures/3.svg);
   background-repeat: no-repeat;
+  background-size: 100%;
   position: relative; }
   .box__button {
     width: 118px;
