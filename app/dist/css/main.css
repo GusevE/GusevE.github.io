@@ -16,10 +16,15 @@
 
 body {
   max-width: 1200px;
-  margin: 0 auto; }
-
+  margin: 0 auto;
+  background: #E5E5E5;
+}
 .header__logo__320 {
-  opacity: 0; }
+  opacity: 0;
+}
+.wrapper{
+  background: #FFFFFF;
+}
 
 .header {
   display: flex;
