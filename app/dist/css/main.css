@@ -702,3 +702,7 @@ ul li:hover:before {
   border-bottom: 2px solid #f7ab32;
   margin-bottom: -2px;
 }
+.hardware__spisok li{
+  cursor: pointer;
+}
+
