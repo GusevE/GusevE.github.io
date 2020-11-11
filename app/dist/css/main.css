@@ -585,7 +585,7 @@ ul li:hover:before {
 
 .hardware__spisok_two li::before {
   margin-left: 0px;
-  margin-top: 4px; }
+  margin-top: 1px; }
 
 .hardware__button_one {
   margin-top: 5px;
