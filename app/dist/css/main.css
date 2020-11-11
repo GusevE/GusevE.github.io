@@ -493,7 +493,8 @@ ul {
   font-style: normal;
   font-weight: normal;
   font-size: 15px;
-  line-height: 21px; }
+  line-height: 21px;
+  cursor: pointer;}
 
 .hardware__box_left {
   margin-left: 29px; }
@@ -702,7 +703,5 @@ ul li:hover:before {
   border-bottom: 2px solid #f7ab32;
   margin-bottom: -2px;
 }
-.hardware__spisok li{
-  cursor: pointer;
-}
+
 
