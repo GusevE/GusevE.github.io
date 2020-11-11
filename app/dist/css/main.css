@@ -83,6 +83,9 @@ body {
     line-height: 22px;
     letter-spacing: -0.02em;
     font-feature-settings: "tnum" on, "lnum" on; }
+.nav__item:hover{
+  border-bottom: 4px solid #f7ab32;
+}
 
 .nav__item_two {
   margin-left: 54px; }
