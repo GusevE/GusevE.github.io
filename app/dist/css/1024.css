@@ -234,3 +234,7 @@ ul {
 
 li {
   margin-top: 23px; }
+.line__box{
+  left: 18px;
+}
+.line__box__two{    margin-left: 7px;}
