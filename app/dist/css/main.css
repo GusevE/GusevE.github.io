@@ -708,7 +708,7 @@ ul li:hover:before {
   position: relative;
 }
 .line__box{
-  z-index: -1;
+  z-index: 0;
  top: 78px;
  left: 22px;
   position: absolute;
