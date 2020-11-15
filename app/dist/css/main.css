@@ -686,7 +686,8 @@ ul li:hover:before {
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
-  line-height: 24px; }
+  line-height: 24px; 
+    color: #516E77;}
 
 .sidebar__last_text {
   width: 213px;
