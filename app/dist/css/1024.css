@@ -237,4 +237,5 @@ li {
 .line__box{
   left: 18px;
 }
-.line__box__two{    margin-left: 7px;}
+.line__box__two{    margin-left: 7px;
+    z-index: 0;}
