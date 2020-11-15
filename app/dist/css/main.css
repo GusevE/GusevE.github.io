@@ -703,5 +703,34 @@ ul li:hover:before {
   border-bottom: 2px solid #f7ab32;
   margin-bottom: -2px;
 }
+.hardware__box{
+  position: relative;
+}
+.line__box{
+  z-index: -1;
+ top: 78px;
+ left: 22px;
+  position: absolute;
+  width: 1px;
+  height: 355px;
+  
+  background: linear-gradient(#ffffff 0,9%, #828282, #ffffff);
+  
+}
+.sidebar{
+  position: relative;
+}
+.line__box__two{
+  position: absolute;
+  z-index: 1;
+  margin-left: -4px;
+  top: 131px;
+  height: 239px;
+  background: linear-gradient(#ffffff 0,2%, #828282, #ffffff);
+}
+.hardware__spisok_two li::before{
+  z-index: 2;
+}
+
 
 
