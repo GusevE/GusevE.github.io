@@ -298,7 +298,8 @@ span {
   background: #828282;
   position: absolute;
   top: 5px;
-  left: -20px; }
+  left: -20px; 
+z-index:1;}
 
 .hardware__spisok li:hover::before {
   background: #faaf3f; }
