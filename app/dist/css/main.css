@@ -12,21 +12,21 @@
 
 @font-face {
   font-family: "PT Sans";
-  src: url("/fonts/PTSans/PTSans.ttf"); 
+  src: url("../../fonts/PTSans/PTSans.ttf"); 
 
 
 @font-face {
   font-family: "PTSansCaption-Bold";
-  src: url("/fonts/PTSans/PTSansCaption-Bold.ttf");
+  src: url("../../fonts/PTSans/PTSansCaption-Bold.ttf");
 }
 
 @font-face {
   font-family: "PTSans-Bold";
-  src: url("/fonts/PTSans/PTSans-Bold.ttf");
+  src: url("../../fonts/PTSans/PTSans-Bold.ttf");
 }
 @font-face {
   font-family: "PTSansCaption-Regularc";
-  src: url("/fonts/PTSans/PTSansCaption-Regular.ttf");
+  src: url("../../fonts/PTSans/PTSansCaption-Regular.ttf");
 }
 
 }
