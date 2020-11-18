@@ -575,14 +575,14 @@ ul li:hover:before {
   width: 70px;
   height: 24px;
   font-family: "PTSansCaption-Regularc";
-  font-size: 13px;
+  font-size: 14px;
   line-height: 21px;
   color: #0776d2;
   align-items: center;
   font-style: normal;
   font-weight: normal;
-  margin-left: 40px; }
-letter-spacing: 1px;
+  margin-left: 40px; 
+letter-spacing: -1px;}
 
 .sidebar__text {
   font-family: "Brutal Type";
