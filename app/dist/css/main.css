@@ -12,7 +12,24 @@
 
 @font-face {
   font-family: "PT Sans";
-  src: url("/fonts/PTSans/PTSans.ttf"); }
+  src: url("/fonts/PTSans/PTSans.ttf"); 
+
+
+@font-face {
+  font-family: "PTSansCaption-Bold";
+  src: url("/fonts/PTSans/PTSansCaption-Bold.ttf");
+}
+
+@font-face {
+  font-family: "PTSans-Bold";
+  src: url("/fonts/PTSans/PTSans-Bold.ttf");
+}
+@font-face {
+  font-family: "PTSansCaption-Regularc";
+  src: url("/fonts/PTSans/PTSansCaption-Regular.ttf");
+}
+
+}
 
 body {
   max-width: 1200px;
@@ -558,7 +575,7 @@ ul li:hover:before {
   padding: 0;
   width: 70px;
   height: 24px;
-  font-family: PT Sans;
+  font-family: "PTSansCaption-Regularc";
   font-size: 14px;
   line-height: 21px;
   color: #0776d2;
@@ -566,6 +583,7 @@ ul li:hover:before {
   font-style: normal;
   font-weight: normal;
   margin-left: 40px; }
+letter-spacing: 1px;
 
 .sidebar__text {
   font-family: "Brutal Type";
@@ -732,6 +750,11 @@ ul li:hover:before {
 }
 .hardware__spisok_two li::before{
   z-index: 2;
+}
+.bold{
+  font-family: "PTSans-Bold";
+  font-size: 17px;
+line-height: 24px;
 }
 
 
