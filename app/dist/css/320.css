@@ -1,8 +1,10 @@
- body {
-    width: 320px;
-  }
+.wrapper {
+  max-width: 100%;
+  
+} 
+
   .header {
-    width: 320px;
+    width: 100%;
     height: 50px;
   }
   .header__logo {
@@ -49,7 +51,9 @@
   .nav__item {
     font-size: 14px;
   }
-
+.nav{
+  width: 100%;
+}
   .nav__item_one {
     width: 60px;
     margin-left: 1px;
@@ -77,7 +81,7 @@
     margin-left: 11px;
   }
   .box {
-    width: 320px;
+    width: 100%;
     height: 386px;
     margin-top: 8px;
 
@@ -89,7 +93,7 @@
     padding-left: 2px;
   }
   .box__text {
-    width: 320px;
+    width: 100%;
     font-size: 20px;
     line-height: 28px;
   }
@@ -112,7 +116,7 @@
     margin-left: 9px;
   }
   .box2 {
-    width: 320px;
+    width: 100%;
     height: 386px;
     margin-top: 15px;
     background-image: url(../pictures/29.svg);
@@ -122,7 +126,7 @@
     height: 24px;
   }
   .box3 {
-    width: 320px;
+    width: 100%;
     height: 386px;
     margin-top: 15px;
     background-image: url(../pictures/30.svg);
@@ -186,7 +190,7 @@
     display: none;
   }
   .container{
-    width: 320px;
+    width: 100%;
     position: relative;
   }
   .sidebar{
@@ -209,7 +213,7 @@
     margin-left: 24px;
   }
   .twoslider{
-    width: 320px;
+    width: 100%;
   }
   .button__seria__one{
     margin-left: 5px;
