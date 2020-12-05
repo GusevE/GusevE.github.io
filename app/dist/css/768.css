@@ -94,7 +94,8 @@ h1 {
 .container {
   max-width: none;
   margin: 0;
-  width: 100%; }
+  width: 100%;
+  padding-left:0;}
 
 .click {
   margin-top: 70px;
