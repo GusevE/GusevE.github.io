@@ -117,7 +117,12 @@ body {
 
 .search {
   display: none; }
-
+.container{
+  padding-left: 72px;
+}
+.container-r{
+padding-right: 72px;
+}
 .container1 {
   position: relative;
   margin-top: -2px;
