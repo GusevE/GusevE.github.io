@@ -229,3 +229,6 @@
   margin-top: 77px;
   margin-left: 19px;
 }
+.container {
+    padding-left: 0;
+}
