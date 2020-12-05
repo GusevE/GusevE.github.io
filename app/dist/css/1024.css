@@ -239,5 +239,6 @@ li {
 .line__box__two{    margin-left: 7px;
     z-index: 0;}
 .container {
-  padding-left: 12px;
+    max-width: 730px;
+    padding-left: 12px;
 }
