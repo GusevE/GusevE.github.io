@@ -33,7 +33,7 @@ h1 {
   display: inline; }
 
 .box {
-  width: 100%;
+  width: 730px;
   height: 492px;
   margin-left: 8px;
   margin-top: 23px;
@@ -92,7 +92,7 @@ ul {
 
 .box2 {
   margin-top: 25px;
-  
+  width: 354px;
   height: 492px;
   background-image: url(../pictures/32.svg); }
 
@@ -116,6 +116,8 @@ ul {
   margin-top: -3px; }
 
 .box3 {
+  width: 354px;
+height: 492px;
   margin-left: 19px;
   
   background-image: url(../pictures/33.svg); }
