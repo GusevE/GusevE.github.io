@@ -92,6 +92,7 @@ h1 {
   margin-left: 1px; }
 
 .container {
+  max-width: none;
   margin: 0;
   width: 100%; }
 
@@ -212,3 +213,4 @@ h1 {
 
 .hardware__button_two {
   margin-left: 20px; }
+
