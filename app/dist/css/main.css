@@ -273,6 +273,7 @@ span {
   margin-left: 5px; }
 
 .box2 {
+  position: relative;
   width: 517px;
   margin-top: 25px;
   background-image: url(../pictures/8.svg);
@@ -350,6 +351,7 @@ z-index:1;}
   margin-left: 10px; }
 
 .box3 {
+  position: relative;
   width: 247px;
   margin-top: 25px;
   margin-left: 25px;
@@ -841,6 +843,77 @@ line-height: 24px;
 .sidebat__html:hover .box_layer_three {
   opacity: 1;
 }
+.box_layer_four{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: all 0.5s;
+}
+.box_layer_four img:nth-of-type(1) {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+}
+
+.box_layer_four img:nth-of-type(2) {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+}
+.box_layer_four img:nth-of-type(3) {
+  position: absolute;
+  bottom: 8px;
+  right: 8px;
+}
+
+.box_layer_four img:nth-of-type(4) {
+  position: absolute;
+  bottom: 8px;
+  left: 8px;
+}
+
+.box2:hover .box_layer_four {
+  opacity: 1;
+}
+.box_layer_five{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: all 0.5s;
+}
+.box_layer_five img:nth-of-type(1) {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+}
+
+.box_layer_five img:nth-of-type(2) {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+}
+.box_layer_five img:nth-of-type(3) {
+  position: absolute;
+  bottom: 8px;
+  right: 8px;
+}
+
+.box_layer_five img:nth-of-type(4) {
+  position: absolute;
+  bottom: 8px;
+  left: 8px;
+}
+
+.box3:hover .box_layer_five {
+  opacity: 1;
+}
+
 
 
 
