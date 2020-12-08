@@ -626,6 +626,7 @@ letter-spacing: -1px;}
   margin-top: 22px; }
 
 .sidebar__img {
+  position: relative;
   width: 215px;
   height: 238px;
   margin-left: 19px;
@@ -658,6 +659,7 @@ letter-spacing: -1px;}
   height: 270px; }
 
 .sidebat__html {
+  position: relative;
   margin-top: 19px;
   margin-left: 23px;
   width: 214px;
