@@ -91,7 +91,7 @@ body {
   .nav__bar {
     display: flex;
     flex-flow: row wrap;
-    margin-left: 41px;
+    margin-left: 24px;
     padding-top: 15px; }
   .nav__item {
       width: 91px;
