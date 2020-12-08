@@ -94,26 +94,31 @@ body {
     margin-left: 41px;
     padding-top: 15px; }
   .nav__item {
+      width: 91px;
+height: 24px;
+text-align: center;
     font-family: "Brutal regular";
     font-size: 16px;
     line-height: 22px;
     letter-spacing: -0.02em;
     font-feature-settings: "tnum" on, "lnum" on; }
 .nav__item:hover{
-  border-bottom: 4px solid #f7ab32;
+   background: #FAAF3F;
+  border-radius: 2px;
+  color: #FFFFFF;
 }
 
 .nav__item_two {
-  margin-left: 54px; }
+  margin-left: 15px; }
 
 .nav__item_three {
-  margin-left: 54px; }
+  margin-left: 15px; }
 
 .nav__item_four {
-  margin-left: 54px; }
+  margin-left: 15px; }
 
 .nav__item_five {
-  margin-left: 54px; }
+  margin-left: 15px; }
 
 .search {
   display: none; }
