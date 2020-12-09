@@ -232,3 +232,21 @@
 .container {
     padding-left: 0;
 }
+.nav__item:hover{
+  display: none;
+}
+.box:hover .box_layer {
+  opacity: 0;
+}
+.sidebar__img:hover .box_layer_two {
+  opacity: 0;
+}
+.sidebat__html:hover .box_layer_three {
+  opacity: 0;
+}
+.box2:hover .box_layer_four {
+  opacity: 0;
+}
+.box3:hover .box_layer_five {
+  opacity: 0;
+}
