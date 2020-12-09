@@ -918,6 +918,10 @@ line-height: 24px;
 .box3:hover .box_layer_five {
   opacity: 1;
 }
+.news__item__action { 
+  border-bottom: 2px solid #f7ab32;
+}  
+
 
 
 
