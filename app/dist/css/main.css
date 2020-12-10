@@ -940,7 +940,11 @@ line-height: 24px;
 }
 .news__item__action { 
   border-bottom: 2px solid #f7ab32;
-}  
+} 
+.hardware__button:hover{
+  background-color: #F49F21;
+}
+
 
 
 
