@@ -740,9 +740,14 @@ letter-spacing: -1px;}
 .box__description br {
   display: none; }
 .button__hover{
-  width: 62px;
+  width: 63px;
   height: 17px;
 }
+.button__hover_one{
+  width: 59px;
+  height: 17px;
+}
+
 .button__hover:hover{
  border-bottom: 1px solid #0776D2;
 }
