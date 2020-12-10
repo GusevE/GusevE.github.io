@@ -754,6 +754,15 @@ letter-spacing: -1px;}
 .button__hover:hover{
  border-bottom: 1px solid #0776D2;
 }
+.button__hover_two{
+  width:75px;
+  height: 17px;
+}
+.button__hover_two:hover{
+ border-bottom: 1px solid #0776D2;
+}
+
+
 .hardware__box{
   position: relative;
 }
