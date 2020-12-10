@@ -739,9 +739,12 @@ letter-spacing: -1px;}
 
 .box__description br {
   display: none; }
+.button__hover{
+  width: 71px;
+  height: 17px;
+}
 .button__hover:hover{
-  border-bottom: 2px solid #f7ab32;
-  margin-bottom: -2px;
+ border-bottom: 1px solid #0776D2;
 }
 .hardware__box{
   position: relative;
