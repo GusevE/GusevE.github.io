@@ -747,6 +747,9 @@ letter-spacing: -1px;}
   width: 59px;
   height: 17px;
 }
+.button__hover_one:hover{
+ border-bottom: 1px solid #0776D2;
+}
 
 .button__hover:hover{
  border-bottom: 1px solid #0776D2;
