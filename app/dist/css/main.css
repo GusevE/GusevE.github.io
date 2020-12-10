@@ -541,7 +541,10 @@ ul li:hover:before {
 
 .hardware__button button {
   padding-top: 7px;
-  padding-left: 45px;
+  display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    width: 100%;
   font-family: Brutal Type;
   font-size: 14px;
   line-height: 18px;
@@ -660,7 +663,7 @@ letter-spacing: -1px;}
 
 .sidebar__button button {
   margin-top: 2px;
-  padding-left: 65px; }
+   }
 
 .sidebar__html {
   height: 270px; }
