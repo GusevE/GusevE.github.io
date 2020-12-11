@@ -619,6 +619,8 @@ letter-spacing: -1px;}
 
 .hardware__spisok_two ul {
   width: 203px; }
+.sidebar__button {
+  margin-top: 20px;}
 
 .hardware__spisok_two li::before {
   margin-left: 0px;
@@ -626,8 +628,8 @@ letter-spacing: -1px;}
 
 .hardware__button_one {
   margin-top: 5px;
-  margin-left: 23px;
-  width: 214px;
+  margin-left: 19px;
+  width: 217px;
   align-items: center; }
 
 .sidebar_one {
@@ -657,9 +659,7 @@ letter-spacing: -1px;}
   margin-top: 70px;
   margin-left: 22px; }
 
-.sidebar__button {
-  margin-top: 40px;
-  margin-left: 4px; }
+
 
 .sidebar__button button {
   margin-top: 2px;
