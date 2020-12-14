@@ -242,3 +242,9 @@ li {
     max-width: 730px;
     padding-left: 12px;
 }
+.nav__item{
+pointer-events:none;
+}
+.button__hover{
+pointer-events:none;
+}
