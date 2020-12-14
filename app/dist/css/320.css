@@ -190,14 +190,7 @@
     width: 100%;
     position: relative;
   }
-  .sidebar{
-    position: absolute;
-    top: 1653px;
-    width: 288px;
-    height: 413px;
-    margin-left: 9px;
-  }
-  
+
   .hardware__spisok_two li{
     margin-top: 13px;
   }
@@ -243,4 +236,7 @@
 }
 .box3:hover .box_layer_five {
   opacity: 0;
+}
+.containet-m{
+  flex-direction: column;
 }
