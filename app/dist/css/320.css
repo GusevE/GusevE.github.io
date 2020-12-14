@@ -239,6 +239,8 @@
 }
 .sidebar {
 width: 288px;
+  padding-bottom: 20px;
+  margin-bottom: 58px;
 }
 .line__box__two {
     top: 100px;
