@@ -232,4 +232,9 @@ h1 {
 .box3:hover .box_layer_five {
   opacity: 0;
 }
-
+.nav__item{
+pointer-events:none;
+}
+.button__hover{
+pointer-events:none;
+}
