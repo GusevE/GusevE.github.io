@@ -29,6 +29,9 @@
   src: url("../../fonts/PTSans/PTSansCaption-Regular.ttf");}
 
 
+button:active, button:focus {
+  outline: none;
+}
 
 body {
   max-width: 1200px;
