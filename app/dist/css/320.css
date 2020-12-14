@@ -238,7 +238,7 @@
   flex-direction: column;
 }
 .sidebar {
-    height: 0;
+    height: 405px;
 width: 288px;
   padding-bottom: 20px;
   margin-bottom: 58px;
