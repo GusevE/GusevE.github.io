@@ -237,3 +237,9 @@
 .containet-m{
   flex-direction: column;
 }
+.sidebar {
+width: 288px;
+}
+.line__box__two {
+    top: 100px;
+}
