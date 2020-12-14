@@ -247,3 +247,5 @@ width: 288px;
 .line__box__two {
     top: 100px;
 }
+.button__hover:hover{
+display:none;}
