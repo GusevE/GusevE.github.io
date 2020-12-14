@@ -249,3 +249,10 @@ width: 288px;
 }
 .button__hover:hover{
 display:none;}
+
+.nav__item{
+pointer-events:none;
+}
+.button__hover{
+pointer-events:none;
+}
