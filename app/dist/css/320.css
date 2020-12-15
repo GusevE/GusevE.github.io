@@ -256,3 +256,6 @@ pointer-events:none;
 .button__hover{
 pointer-events:none;
 }
+.line__box {
+    left: 19px;
+}
