@@ -950,15 +950,7 @@ line-height: 24px;
 .hardware__button:hover{
   background-color: #F49F21;
 }
-.nav__item {
-  cursor: pointer;
-}
-.hardware__button  {
-  cursor: pointer;
-}
-.sidebar__button{
-  cursor: pointer;
-}
+
 .side__bar_activ{
   position: relative;
 }
