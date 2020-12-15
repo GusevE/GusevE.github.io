@@ -259,3 +259,7 @@ pointer-events:none;
 .line__box {
     left: 19px;
 }
+.line__box__two{
+background: linear-gradient(#ffffff 0,10%, #828282, #ffffff);
+}
+
