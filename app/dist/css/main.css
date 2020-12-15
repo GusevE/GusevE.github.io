@@ -606,7 +606,8 @@ ul li:hover:before {
   font-style: normal;
   font-weight: normal;
   margin-left: 40px; 
-letter-spacing: -1px;}
+letter-spacing: -1px;
+cursor: pointer;}
 
 .sidebar__text {
   font-family: "Brutal Type";
