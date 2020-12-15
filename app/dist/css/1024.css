@@ -241,6 +241,7 @@ li {
 .container {
     max-width: 730px;
     padding-left: 12px;
+  margin-bottom: 20px;
 }
 .nav__item{
 pointer-events:none;
