@@ -97,6 +97,7 @@ body {
     margin-left: 24px;
     padding-top: 15px; }
   .nav__item {
+     cursor: pointer;
       width: 91px;
 height: 24px;
 text-align: center;
@@ -543,6 +544,7 @@ ul li:hover:before {
   background-image: url(../pictures/18.svg) no-repeat; }
 
 .hardware__button button {
+  cursor: pointer;
   padding-top: 7px;
   display: flex;
     flex-flow: column nowrap;
@@ -629,6 +631,7 @@ letter-spacing: -1px;}
   margin-top: 1px; }
 
 .hardware__button_one {
+  cursor: pointer;
   margin-top: 5px;
   margin-left: 19px;
   width: 217px;
