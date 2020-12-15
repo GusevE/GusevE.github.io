@@ -625,7 +625,7 @@ letter-spacing: -1px;}
 
 
 .hardware__spisok_two li::before {
-  margin-left: 0px;
+  margin-left: 1px;
   margin-top: 1px; }
 
 .hardware__button_one {
