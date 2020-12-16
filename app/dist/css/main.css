@@ -416,7 +416,8 @@ z-index:1;}
 
 .news {
   margin-left: 10px;
-  font-weight: bold; }
+  font-weight: bold;
+    cursor: pointer;}
 
 .news__item:not(:first-child) {
   margin-left: 52px; }
