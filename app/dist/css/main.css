@@ -955,6 +955,9 @@ line-height: 24px;
 .hardware__button:hover{
   background-color: #F49F21;
 }
+.sidebar__last_text:hover{
+  color: #F49F21;
+}
 
 
 
