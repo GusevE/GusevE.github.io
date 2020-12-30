@@ -57,7 +57,7 @@ h1 {
   margin-left: 0;
   width: 100%;
   height: 386px;
-  background-image: url(../pictures/20.svg); }
+  background-image: url(../pictures/88.jpg); }
 
 .box__description {
   display: none; }
@@ -168,8 +168,7 @@ h1 {
   margin: 0;
   width: 250px; }
 
-.news-time__two {
-  margin-left: 20px; }
+
 
 .hardware {
   margin-left: 13px;
@@ -198,8 +197,7 @@ h1 {
 .newe__time {
   flex: 0 0 auto; }
 
-.news-time__three {
-  margin-left: 18px; }
+
 
 .hardware__list {
   margin-bottom: 35px; }
@@ -208,10 +206,6 @@ h1 {
   margin: 0;
   width: 285px; }
 
-
-
-.hardware__button_two {
-  margin-left: 20px; }
 .nav__item:hover{
   display: none;
 }

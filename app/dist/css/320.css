@@ -61,9 +61,8 @@
 .nav{
   width: 100%;
 }
-.nav__item{
-  width: 60px;
-}
+.nav__item:not(:first-child)
+{margin-left: 12px}
 .header__title {
     font-size: 20px;
    padding: 25px 11px 11px 20px;

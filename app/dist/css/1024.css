@@ -7,7 +7,7 @@ body {
 .header__text {
   width: 550px;
   padding-top: 37px;
-  margin-left: -39px; }
+   }
 
 .header__title{
   
@@ -75,8 +75,7 @@ ul {
 .hardware__list_two ul {
   width: 203px; }
 
-.hardware__button_two {
-  margin-left: 80px; }
+
 
 .sidebar__text_two {
   padding-top: 62px;
@@ -129,15 +128,10 @@ height: 492px;
   margin-left: 21px; }
 
 
-.news-time__one {
-  margin: 0;
-  margin-right: 20px; }
 
-.news-time__two {
-  margin-left: 1px; }
 
 .news-time {
-  margin-left: 5px;
+ 
   flex-wrap: nowrap;
   overflow-x: auto; }
 

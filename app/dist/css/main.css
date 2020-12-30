@@ -99,8 +99,8 @@ right: 20px; }
     margin-left: 24px;
     padding-top: 13px; }
   .nav__item {
+    padding: 0 14px;
      cursor: pointer;
-      width: 91px;
 height: 24px;
 text-align: center;
     font-family: "Brutal regular";
@@ -113,6 +113,8 @@ text-align: center;
   border-radius: 2px;
   color: #FFFFFF;
 }
+.nav__item:not(:first-child)
+{margin-left: 35px}
 
 
 .search {
@@ -399,8 +401,14 @@ z-index:1;}
 
 .news-time-about {
   margin-top: 80px;
-  margin-left: 19px; }
+  margin-left: 19px; 
+}
 
+
+  .newe__time:not(:first-child) 
+  {
+    margin-left: 20px
+  }
 .news {
   font-weight: bold;
     cursor: pointer;}
@@ -429,19 +437,16 @@ right: 6px; }
    }
 
 .news-time__one {
-
   width: 250px;
   height: 177px;
   background-image: url(../pictures/12.svg); }
 
 .news-time__two {
-  margin-left: 20px;
   width: 250px;
   height: 177px;
   background-image: url(../pictures/13.svg); }
 
 .news-time__three {
-  margin-left: 20px;
   width: 250px;
   height: 177px;
   background-image: url(../pictures/14.svg); }
@@ -626,13 +631,6 @@ background: none;}
 .hardware__list_two li::before {
   margin-left: 1px;
   margin-top: 1px; }
-
-.hardware__button_one {
-  cursor: pointer;
-  margin-top: 5px;
-  margin-left: 19px;
-  width: 217px;
-  align-items: center; }
 
 .sidebar_one {
   height: 374px;
