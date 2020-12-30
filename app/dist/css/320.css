@@ -13,7 +13,7 @@
   }
   .header__logo__320 {
     position: absolute;
-    display: none;
+    display: inline;
     margin-left: 54px;
     margin-top: 9px;
   
