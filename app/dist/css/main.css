@@ -971,6 +971,10 @@ line-height: 24px;
   color: #FFFFFF;
   left: 20px;
 }
+.nav__icon_320{
+  display: none;
+}
+
 
 
 
