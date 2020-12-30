@@ -13,9 +13,10 @@
   }
   .header__logo__320 {
     position: absolute;
-    opacity: 1;
+    display: none;
     margin-left: 54px;
     margin-top: 9px;
+  
   }
 
   .pixel {
@@ -23,9 +24,15 @@
     margin-left: -25px;
     margin-top: 8px;
   }
-  .nav__icon {
-    margin-left: 14px;
-    margin-top: 2px;
+  .nav__icon{
+    display: none;
+  }
+  .nav__icon_320 {
+    display: inline;
+    margin-top: 6px;
+    color: white;
+  margin-left: 19px;
+  font-size: 24px;
   }
   .header__button {
     position: absolute;
@@ -35,11 +42,11 @@
     line-height: 10px;
     font-family: "PT Sans";
   }
-  .lupa2 {
+  .lupa__two {
     position: absolute;
     display: block;
     right: 59px;
-    margin-top: -29px;
+    top: 13px;
   }
   .nav__bar {
     margin-left: 14px;
@@ -54,37 +61,16 @@
 .nav{
   width: 100%;
 }
-  .nav__item_one {
-    width: 60px;
-    margin-left: 1px;
-    margin-top: -1px;
-  }
-  .nav__item_two {
-    width: 43px;
-    margin-left: 10px;
-  }
-  .nav__item_three {
-    width: 38px;
-    margin-left: 10px;
-  }
-  .nav__item_four {
-    width: 42px;
-    margin-left: 15px;
-  }
-  .nav__item_five {
-    width: 58px;
-    margin-left: 15px;
-  }
-  h1 {
+.nav__item{
+  width: 60px;
+}
+.header__title {
     font-size: 20px;
-    margin-top: 22px;
-    margin-left: 11px;
+   padding: 25px 11px 11px 20px;
   }
   .box {
     width: 100%;
-    height: 386px;
-    margin-top: 8px;
-
+    height: 386px;  
     background-image: url(../pictures/31.svg);
   }
   .box__button {
@@ -103,8 +89,8 @@
     margin-left: 14px;
   }
   .about {
-    padding: 0;
-    margin-left: 5px;
+    left: 14px;
+    
     margin-top: 5px;
   }
   .about__signature {
@@ -118,7 +104,7 @@
   .box2 {
     width: 100%;
     height: 386px;
-    margin-top: 15px;
+    
     background-image: url(../pictures/29.svg);
   }
   .box2__button {
@@ -128,7 +114,7 @@
   .box3 {
     width: 100%;
     height: 386px;
-    margin-top: 15px;
+    
     background-image: url(../pictures/30.svg);
   }
   .box3__button {
@@ -188,7 +174,7 @@
     position: relative;
   }
 
-  .hardware__spisok_two li{
+  .hardware__list_two li{
     margin-top: 13px;
   }
   .hide{
@@ -201,6 +187,7 @@
   }
   .twoslider{
     width: 100%;
+    padding-top: 15px;
   }
   .button__seria__one{
     margin-left: 5px;
