@@ -56,7 +56,6 @@
     display: none;
   }
   .nav__item {
-    padding: 0;
     font-size: 14px;
   }
 .nav{
@@ -203,9 +202,7 @@
 .container {
     padding-left: 0;
 }
-.nav__item:hover{
-  display: none;
-}
+
 .box:hover .box_layer {
   opacity: 0;
 }
@@ -237,16 +234,10 @@ width: 288px;
 .button__hover:hover{
 display:none;}
 
-.nav__item{
-pointer-events:none;
-}
-.button__hover{
-pointer-events:none;
-}
+
 .line__box {
     left: 19px;
 }
 .line__box__two{
 background: linear-gradient(#ffffff 0,10%, #828282, #ffffff);
 }
-

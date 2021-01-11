@@ -24,17 +24,6 @@
 .lupa {
   display: none; }
 
-.nav__item_two {
-  margin-left: 81px; }
-
-.nav__item_three {
-  margin-left: 68px; }
-
-.nav__item_four {
-  margin-left: 63px; }
-
-.nav__item_five {
-  margin-left: 63px; }
 
 .nav__bar {
   margin-left: 19px; }
@@ -203,12 +192,9 @@ h1 {
   margin-bottom: 35px; }
 
 .hardware__button {
-  
+  margin: 0;
   width: 285px; }
 
-.nav__item:hover{
-  display: none;
-}
 .box:hover .box_layer {
   opacity: 0;
 }
@@ -224,12 +210,7 @@ h1 {
 .box3:hover .box_layer_five {
   opacity: 0;
 }
-.nav__item{
-pointer-events:none;
-}
-.button__hover{
-pointer-events:none;
-}
+
 .about__like_one{
   
   left: 20px;

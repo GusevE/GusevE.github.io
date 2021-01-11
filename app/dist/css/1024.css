@@ -222,9 +222,7 @@ li {
   margin-bottom: 20px;
 }
 
-.button__hover{
-pointer-events:none;
-}
+
 .nav__icon_320{
   display: none;
 }
