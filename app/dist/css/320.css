@@ -241,3 +241,7 @@ display:none;}
 .line__box__two{
 background: linear-gradient(#ffffff 0,10%, #828282, #ffffff);
 }
+.nav__item{
+  padding: 0;
+}
+
