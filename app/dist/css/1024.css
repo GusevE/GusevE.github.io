@@ -221,9 +221,7 @@ li {
     padding-left: 12px;
   margin-bottom: 20px;
 }
-.nav__item{
-pointer-events:none;
-}
+
 .button__hover{
 pointer-events:none;
 }
