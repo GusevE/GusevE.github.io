@@ -1,32 +1,32 @@
 @font-face {
   font-family: "Brutal Type";
-  src: url("../fonts/Brutal/bold/BrutalBold.ttf"); }
+  src: url("../../fonts/Brutal/bold/BrutalBold.ttf"); }
 
 @font-face {
   font-family: "Brutal regular";
-  src: url("../fonts/Brutal/regular/BrutalRegular.ttf"); }
+  src: url("../../fonts/Brutal/regular/BrutalRegular.ttf"); }
 
 @font-face {
   font-family: "Brutal medium";
-  src: url("../fonts/Brutal/medium/BrutalMedium.ttf"); }
+  src: url("../../fonts/Brutal/medium/BrutalMedium.ttf"); }
 
 @font-face {
   font-family: "PT Sans";
-  src: url("../fonts/PTSans/PTSans.ttf"); }
+  src: url("../../fonts/PTSans/PTSans.ttf"); }
 
 
 @font-face {
   font-family: "PTSansCaption-Bold";
-  src: url("../fonts/PTSans/PTSansCaption-Bold.ttf");}
+  src: url("../../fonts/PTSans/PTSansCaption-Bold.ttf");}
 
 
 @font-face {
   font-family: "PTSans-Bold";
-  src: url("../fonts/PTSans/PTSans-Bold.ttf");}
+  src: url("../../fonts/PTSans/PTSans-Bold.ttf");}
 
 @font-face {
   font-family: "PTSansCaption-Regularc";
-  src: url("../fonts/PTSans/PTSansCaption-Regular.ttf");}
+  src: url("../../fonts/PTSans/PTSansCaption-Regular.ttf");}
 
   @media only screen and (min-width: 1023px) {
     .nav__item:hover{
